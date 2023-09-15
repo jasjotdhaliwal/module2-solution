@@ -4,10 +4,13 @@ h1{
 }
 #first{
   border: 1px solid black;
+  width:33.3%;
 }
 #second{
   border: 1px solid black;
+  width:33.3%;
 }
 #third{
   border: 1px solid black;
+  width:33.3%;
 }
