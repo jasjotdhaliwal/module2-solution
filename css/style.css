@@ -2,3 +2,12 @@ h1{
   color:red;
   text-align:center;
 }
+#first{
+  border: 1px solid black;
+}
+#second{
+  border: 1px solid black;
+}
+#third{
+  border: 1px solid black;
+}
