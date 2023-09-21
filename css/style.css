@@ -1,17 +1,68 @@
-h1{
-  color:red;
-  text-align:center;
+* {
+  box-sizing: border-box;
 }
-#first{
-  border: 1px solid black;
-  width:33.3%;
-  background-color:red;
+section {
+  border: 1px white solid;
+  width: 33.33%;
+  float: left;
+  position: relative;
+  /* margin: 1%; */
+
+  padding: 10px;
+  padding-top: 60px;
+  color: black;
+  background-color: #999999;
 }
-#second{
-  border: 1px solid black;
-  width:33.3%;
+p {
+  text-align: center;
 }
-#third{
+
+h1 {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+
+span p.title {
+  font-weight: bold;
+  font-size:20px;
+}
+
+span {
   border: 1px solid black;
-  width:33.3%;
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* Media Queires */
+/* Destop */
+/* 992px */
+
+/* Tablet */
+/* 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  section.first {
+    width: 50%;
+  }
+
+  section.second {
+    width: 50%;
+  }
+  section.third {
+    width: 100%;
+    /* margin-top: 20px; */
+  }
+}
+
+/* mobile */
+/* max-width 767px */
+@media (max-width: 767px) {
+  section {
+    width: 100%;
+  }
 }
